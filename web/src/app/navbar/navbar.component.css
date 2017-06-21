@@ -1,0 +1,47 @@
+.masthead {
+	height: 98px;
+	background-color: #292b2c;
+}
+
+.masthead-page {
+	float: left;
+	line-height: 98px;
+	padding-left: 20px;
+	font-size: 3em;
+	color: #fff;
+}
+
+.navbar {
+	float: right;
+	padding: 0;
+	z-index: 1;
+}
+
+.navbar a {
+	cursor: pointer;
+	color: #fff;
+	background-color: #292b2c;
+}
+
+.navbar-active {
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #fff;
+	border-radius: 0;
+}
+
+.navbar a:hover, .navbar a:active {
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-radius: 0;
+	background-color: #292b2c !important;
+}
+
+.nav-link h2 {
+	font-size: 2.5em;
+}
+
+.nav-link h3 {
+	font-size: 1em;
+	font-weight: bold;
+}

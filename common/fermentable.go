@@ -62,13 +62,13 @@ func (this *Fermentables) Add(newdata Fermentable) error {
 
 type Fermentable struct {
 	ID        int       `json:"id"`
-	Name      string    `json:"name"`
 	Recipe    string    `json:"recipe"`
 	Tags      []string  `json:"tags"`
 	Fermenter string    `json:"fermenter"`
 	StartDate time.Time `json:"startdate"`
 	EndDate   time.Time `json:"enddate"`
 	Readings  []Reading `json:"readings"`
+	Notes     string    `json:"notes"`
 }
 
 func NewFermentable(id int, name string, recipe string, vessel string, start time.Time) Fermentable {

@@ -1,0 +1,68 @@
+/* You can add global styles to this file, and also import other style files */
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+}
+
+.link-fermtrack {
+	border-color: #08262a !important;
+	color: #08262a !important;
+	background-color: #5aa9b4 !important;
+}
+.link-fermtrack-hover:hover {
+	border-color: #5aa9b4 !important;
+	color: #5aa9b4 !important;
+	background-color: #08262a !important;
+	text-decoration: none;
+}
+
+.link-brewmon {
+	border-color: #3c171b !important;
+	color: #3c171b !important;
+	background-color: #e4828c !important;
+}
+.link-brewmon-hover:hover {
+	border-color: #e4828c !important;
+	color: #e4828c !important;
+	background-color: #3c171b !important;
+	text-decoration: none;
+}
+
+.home-button-3 {
+	border-color: #453f15 !important;
+	color: #453f15 !important;
+	background-color: #fded7c !important;
+}
+.home-button-3-hover:hover {
+	border-color: #fded7c !important;
+	color: #fded7c !important;
+	background-color: #453f15 !important;
+	text-decoration: none;
+}
+
+.home-button-4 {
+	border-color: #011a0c !important;
+	color: #011a0c !important;
+	background-color: #8dcaa9 !important;
+}
+.home-button-4-hover:hover {
+	border-color: #8dcaa9 !important;
+	color: #8dcaa9 !important;
+	background-color: #011a0c !important;
+	text-decoration: none;
+}
+
+.home-button-5 {
+	border-color: #15191a !important;
+	color: #15191a !important;
+	background-color: #7c8788 !important;
+}
+.home-button-5-hover:hover {
+	border-color: #7c8788 !important;
+	color: #7c8788 !important;
+	background-color: #15191a !important;
+	text-decoration: none;
+}

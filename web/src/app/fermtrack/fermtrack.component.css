@@ -1,0 +1,42 @@
+.fermtrack-main {
+	height: 100vh;
+	padding-top: 98px;
+	margin-top: -98px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.fermtrack-main > .row {
+	min-height: 100%;
+}
+
+.item-list {
+	float: left;
+	min-height: 100%;
+	position: relative;
+	border-right: 2px solid #292b2c;
+	padding-top: 20px;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.add-button {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	font-size: 2em;
+	line-height: 2.2em;
+	background-color: #5cb85c;
+	color: #edf7ed !important;
+	text-align: center;
+	cursor: pointer;
+}
+
+.add-button:hover, .add-button:active {
+	color: #5cb85c !important;
+	background-color: #edf7ed;
+}
+
+h2 {
+	font-family: Helvetica, Arial, sans-serif;
+}

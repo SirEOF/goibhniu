@@ -1,0 +1,34 @@
+.home-outer-box {
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: -125px;
+}
+
+.home-row > :first-child {
+	margin-left: 0px !important;
+}
+
+.home-button {
+	border: 3px solid #000;
+	border-radius: 30px;
+	margin-left: 80px;
+	padding: 30px;
+}
+
+.home-button h1 {
+	font-size: 6em;
+}
+.home-button h3 {
+	font-size: 3em;
+}
+
+.home-header {
+	margin-bottom: 20px;
+	font-size: 4em;
+	font-weight: bold;
+}
+

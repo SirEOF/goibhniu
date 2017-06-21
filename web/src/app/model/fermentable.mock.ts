@@ -1,0 +1,9 @@
+import { Fermentable } from './fermentable'
+
+export const FERMENTABLES: Fermentable[] = [
+	{ id: 0, recipe: "Wit Men Can't Jump", tags: ["beer", "wheat"], fermenter: "better-bottle-1", startdate: "2017-06-20T19:43:33-05:00", enddate: "", readings: [ { updatetime: "2017-06-20T19:43:33-05:00", gravity: 1.070 } ], notes: "" },
+	{ id: 1, recipe: "The Sacred Cow", tags: ["beer", "belgian", "tripel"], fermenter: "better-bottle-2", startdate: "2017-03-19T19:43:33-05:00", enddate: "", readings: [ { updatetime: "2017-03-19T19:43:33-05:00",  gravity: 1.060 } ], notes: "" },
+	{ id: 2, recipe: "Some Crappy IPA", tags: ["beer", "ipa"], fermenter: "better-bottle-1", startdate: "2017-02-14T19:43:33-05:00", enddate: "2017-03-08T19:43:33-05:0", readings: [ { updatetime: "2017-02-14T19:43:33-05:00", gravity: 1.040 }, { updatetime: "2017-03-08T19:43:33-05:0", gravity: 1.021 } ], notes: "" },
+	{ id: 3, recipe: "Wit Men Can't Jump", tags: ["beer", "wheat"], fermenter: "better-bottle-1", startdate: "2017-01-04T19:43:33-05:00", enddate: "2017-01-24T19:43:33-05:00", readings: [ { updatetime: "017-01-04T19:43:33-05:00", gravity: 1.080 }, { updatetime: "017-01-08T19:43:33-05:00", gravity: 1.040 }, { updatetime: "017-01-12T19:43:33-05:00", gravity: 1.014 }, { updatetime: "017-01-13T19:43:33-05:00", gravity: 1.012 }, { updatetime: "017-01-14T19:43:33-05:00", gravity: 1.010 } ], notes: "" },
+	{ id: 3, recipe: "Wit Men Can't Jump", tags: ["beer", "wheat"], fermenter: "better-bottle-2", startdate: "2017-01-04T19:43:33-05:00", enddate: "2017-01-14T19:43:33-05:00", readings: [ { updatetime: "017-01-04T19:43:33-05:00", gravity: 1.080 }, { updatetime: "017-01-08T19:43:33-05:00", gravity: 1.040 }, { updatetime: "017-01-12T19:43:33-05:00", gravity: 1.014 }, { updatetime: "017-01-13T19:43:33-05:00", gravity: 1.012 }, { updatetime: "017-01-14T19:43:33-05:00", gravity: 1.010 } ], notes: "Got infected." }
+]
