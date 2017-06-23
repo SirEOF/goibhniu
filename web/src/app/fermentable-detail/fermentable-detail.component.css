@@ -1,0 +1,26 @@
+.container-fluid {
+	margin-top: 15px;
+}
+
+.name h1 {
+	font-weight: bold;
+	font-size: 2.8rem;
+	line-height: 75px;
+}
+
+.detail-label {
+	margin-right: 30px;
+}
+
+.details-row {
+	font-family: Arial, sans-serif;
+}
+
+.button-gutter {
+	float: right;
+	z-index: 1;
+}
+
+.fermentation-chart {
+	margin-top: 30px;
+}

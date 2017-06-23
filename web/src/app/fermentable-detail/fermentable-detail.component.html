@@ -1,3 +1,37 @@
-<p>
-  fermentable-detail works!
-</p>
+<div *ngIf="!hide" class="container-fluid">
+	<div class="button-gutter">
+		<div class="btn-group btn-lg">
+			<button class="btn btn-lg btn-primary">
+				<i class="fa fa-tachometer"></i> Reading
+			</button>
+			<button class="btn btn-lg btn-success">
+				<i class="fa fa-pencil"></i> Edit
+			</button>
+			<button class="btn btn-lg btn-info">
+				<i class="fa fa-print"></i> Label
+			</button>
+			<button class="btn btn-lg btn-danger">
+				<i class="fa fa-trash"></i> Delete
+			</button>
+		</div>
+	</div>
+	<div class="row name-row">
+		<div class="name"><h1>{{brew.recipe}}</h1></div>
+	</div>
+	<div class="row details-row">
+		<div *ngIf="vessel" class="col-12">
+			<span class="detail-label">
+				<i class="fa fa-flask"></i> {{vessel.name}} ({{vessel.size}} gal)
+			</span>
+			<span class="detail-label">
+				<i class="fa fa-calendar-o"></i> {{brew.startdate | date:'mediumDate'}}
+				<span *ngIf="brew.enddate"> - {{brew.enddate | date:'mediumDate'}}</span>
+			</span>
+		</div>
+	</div>
+	<div class="row fermentation-chart">
+		<div class="col-12">
+			<div [chart]="fermChart"></div>
+		</div>
+	</div>
+</div>

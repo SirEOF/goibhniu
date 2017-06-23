@@ -1,12 +1,15 @@
 <div class="container-fluid fermtrack-main">
   <div class="row">
-    <div class="col-md-3 item-list">
-    	<app-fermentables-list></app-fermentables-list>	
+    <div class="col-md-3 left-column">
+      <div class="item-list">
+    	<app-fermentables-list (change)="handleListUpdate($event)"></app-fermentables-list>	
+      </div>
      	<a class="add-button"> 
-			<i class="fa fa-plus" aria-hidden="true"></i> Add New
-		</a>
+  			<i class="fa fa-plus" aria-hidden="true"></i> Add New
+	    </a>
     </div>
-    <div class="col-md-8">
+    <div *ngIf="selectedID != -1" class="col-md-9">
+      <app-fermentable-detail [selected]="selectedID"></app-fermentable-detail>
     </div>
   </div>
 </div>

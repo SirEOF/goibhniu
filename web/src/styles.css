@@ -18,6 +18,9 @@ body {
 	background-color: #08262a !important;
 	text-decoration: none;
 }
+.fermtrack-color {
+	color: #5aa9b4 !important;
+}
 
 .link-brewmon {
 	border-color: #3c171b !important;
@@ -29,6 +32,9 @@ body {
 	color: #e4828c !important;
 	background-color: #3c171b !important;
 	text-decoration: none;
+}
+.brewmon-color {
+	color: #3c171b !important;
 }
 
 .home-button-3 {

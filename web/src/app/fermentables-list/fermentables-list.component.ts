@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 import { Observable } from 'rxjs/Rx';
 
 import { Fermentable } from '../model/fermentable';
@@ -13,6 +13,8 @@ import { FermentablesService } from '../fermentables.service';
 export class FermentablesListComponent implements OnInit {
 	brews: Observable<Fermentable[]>;
 
+  @Output() change: EventEmitter<number> = new EventEmitter<number>();
+
   constructor(private _fermentablesService: FermentablesService) { }
 
   getListing() {
@@ -23,4 +25,7 @@ export class FermentablesListComponent implements OnInit {
 		this.getListing()
   }
 
+  handleClick(id: number) {
+    this.change.emit(id)
+  }
 }

@@ -5,11 +5,14 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './fermtrack.component.html',
   styleUrls: ['./fermtrack.component.css']
 })
-export class FermtrackComponent implements OnInit {
+export class FermtrackComponent {
+	selectedID: number;
 
-  constructor() { }
+  	constructor() {
+  		this.selectedID = -1;
+  	}
 
-  ngOnInit() {
-  }
-
+  	handleListUpdate(event) {
+    	this.selectedID = event;
+  	}
 }
